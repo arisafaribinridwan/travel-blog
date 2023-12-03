@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: 'CircularStd-Bold';
-        src: url('../public/font/CircularStd-Bold.ttf') format('.ttf');
-    }
+  @font-face {
+    font-family: "Circular STD";
+    src: url("../public/font/CircularStd-Bold.otf") format(".otf");
+  }
 
-    html {
-        font-family: 'inter';
-    }
+  html {
+    font-family: "inter";
+  }
 
-    h1 {
-        font-family: 'CircularStd-Bold';
-    }
+  h1 {
+    font-family: "Roboto";
+  }
 }
