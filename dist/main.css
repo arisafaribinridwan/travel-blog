@@ -4,15 +4,11 @@
 
 @layer base {
   @font-face {
-    font-family: "Circular STD";
-    src: url("../public/font/CircularStd-Bold.otf") format(".otf");
-  }
-
-  html {
-    font-family: "inter";
+    font-family: "Circular Std";
+    src: url("/assets/font/CircularStd-Bold.woff") format("woff");
   }
 
   h1 {
-    font-family: "Roboto";
+    font-family: Circular Std;
   }
 }
